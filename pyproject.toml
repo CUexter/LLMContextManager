@@ -1,0 +1,22 @@
+[project]
+name = "llm-context-manager"
+version = "0.1.0"
+description = "A TUI for managing and compressing LLM chat context"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "textual>=0.47.0",
+  "sqlalchemy>=2.0.0",
+  "openai>=1.0.0",
+  "anthropic>=0.18.0",
+  "textual-dev>=1.8.0",
+]
+
+[tool.pyright]
+venvPath = "$DEVENV_STATE"
+venv = "venv"
+
+[project.scripts]
+llm-context-manager = "llm_context_manager.app:main"
+
+[tool.ruff]

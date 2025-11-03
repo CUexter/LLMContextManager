@@ -1,0 +1,16 @@
+/* GraphView component styles */
+
+GraphView {
+    height: 100%;
+    background: $surface;
+    overflow-y: auto;
+}
+
+GraphView .graph-content {
+    padding: 1;
+    height: auto;
+}
+
+GraphView:focus {
+    border: solid $accent;
+}

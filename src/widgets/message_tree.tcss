@@ -1,0 +1,10 @@
+/* MessageTree component styles */
+
+MessageTree {
+    height: 100%;
+    border: solid green;
+}
+
+MessageTree:focus {
+    border: solid yellow;
+}

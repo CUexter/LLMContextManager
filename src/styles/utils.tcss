@@ -1,0 +1,49 @@
+/* Tailwind-inspired utility classes */
+
+/* Spacing */
+.p-0 { padding: 0; }
+.p-1 { padding: 1; }
+.p-2 { padding: 2; }
+.p-3 { padding: 3; }
+
+.m-0 { margin: 0; }
+.m-1 { margin: 1; }
+.m-2 { margin: 2; }
+.m-3 { margin: 3; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+/* Borders */
+.border { border: solid; }
+.border-cyan { border: solid cyan; }
+.border-green { border: solid green; }
+.border-yellow { border: solid yellow; }
+.border-red { border: solid red; }
+.border-none { border: none; }
+
+/* Backgrounds */
+.bg-surface { background: $surface; }
+.bg-primary { background: $primary; }
+.bg-accent { background: $accent; }
+.bg-error { background: $error; }
+.bg-success { background: $success; }
+
+/* Text */
+.text-center { text-align: center; }
+.text-bold { text-style: bold; }
+.text-dim { color: $text-muted; }
+
+/* Layout */
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.w-1-3 { width: 33%; }
+.w-2-3 { width: 67%; }
+.w-1-2 { width: 50%; }
+
+/* Display */
+.hidden { display: none; }
+.block { display: block; }
+
+/* Flex-like (using layout) */
+.flex-col { layout: vertical; }
+.flex-row { layout: horizontal; }

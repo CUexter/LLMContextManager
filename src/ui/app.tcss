@@ -1,0 +1,30 @@
+/* App-level layout */
+
+Screen {
+    layout: horizontal;
+}
+
+#tree-container {
+    width: 35%;
+}
+
+#view-container {
+    width: 65%;
+}
+
+TabbedContent {
+    height: 100%;
+}
+
+Tabs {
+    background: $primary;
+}
+
+Tab {
+    padding: 0 2;
+}
+
+Tab.-active {
+    background: $accent;
+    text-style: bold;
+}

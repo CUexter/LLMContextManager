@@ -1,0 +1,60 @@
+/* ConversationPath component styles */
+
+ConversationPath {
+    height: 100%;
+    background: $surface;
+    overflow-y: auto;
+}
+
+ConversationPath .placeholder {
+    padding: 2;
+    margin: 2;
+    background: $surface-lighten-1;
+    border: solid $accent;
+    text-align: center;
+}
+
+ConversationPath .conv-header {
+    background: $primary;
+    padding: 1 2;
+    margin-bottom: 1;
+    text-style: bold;
+}
+
+ConversationPath .message-box {
+    border: solid;
+    padding: 1;
+    margin: 1 2;
+    background: $surface-darken-1;
+}
+
+ConversationPath .message-box.user {
+    border: solid cyan;
+}
+
+ConversationPath .message-box.assistant {
+    border: solid green;
+}
+
+ConversationPath .message-box.selected {
+    border: double;
+    background: $surface-lighten-1;
+}
+
+ConversationPath .arrow {
+    text-align: center;
+    color: $text-muted;
+    height: 2;
+    margin: 0;
+}
+
+ConversationPath .error {
+    background: $error;
+    color: white;
+    padding: 2;
+    margin: 2;
+}
+
+ConversationPath:focus {
+    border: solid $accent;
+}

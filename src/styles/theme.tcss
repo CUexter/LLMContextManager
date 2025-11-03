@@ -1,0 +1,26 @@
+/* Design tokens - your theme/brand colors */
+
+/* You can override Textual's built-in variables */
+$primary: #3b82f6;
+$secondary: #8b5cf6;
+$accent: #f59e0b;
+$success: #10b981;
+$warning: #f59e0b;
+$error: #ef4444;
+
+/* Custom color palette */
+$user-color: cyan;
+$assistant-color: green;
+$system-color: yellow;
+
+/* Spacing scale */
+$spacing-xs: 1;
+$spacing-sm: 2;
+$spacing-md: 3;
+$spacing-lg: 4;
+$spacing-xl: 5;
+
+/* Border radius (not all terminals support this, but Textual does in some contexts) */
+$radius-sm: 1;
+$radius-md: 2;
+$radius-lg: 3;
